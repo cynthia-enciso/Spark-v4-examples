@@ -4,11 +4,11 @@
 # Eclipse stuff
 /java-environment/RemoteSystemsTempFiles/
 /java-environment/.metadata/
-*.classpath
-*.project
-/.settings/*
-/.metadata/
-/bin
+.classpath
+.project
+.settings/
+.metadata/
+bin/
 
 # Log file
 *.log
