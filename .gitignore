@@ -1,9 +1,15 @@
 # Compiled class file
 *.class
 
-# Eclipse environment metadata
+# Eclipse stuff
 /java-environment/RemoteSystemsTempFiles/
 /java-environment/.metadata/
+*.classpath
+*.project
+/.settings/*
+/.metadata/
+/bin
 
 # Log file
 *.log
+
