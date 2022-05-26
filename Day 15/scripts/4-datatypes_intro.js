@@ -7,7 +7,7 @@ function dataDetails(data) {
     you give it. It uses the javascript 'typeof' operator to print 
     the recognized type for a given piece of data
 
-    We will expand on this example more tomorrow.
+    1. Explain the different datatypes in JS
 */
 
 
