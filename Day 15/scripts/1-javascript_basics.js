@@ -13,11 +13,12 @@
 // initialization
 
 /* ------------------- Declarations ---------------------------*/
-// let: can be re-assigned (to any value), cannot be re-declared
+// let: can be re-assigned, cannot be re-declared
 
 // const: cannot be re-assigned or re-declared
 
 // var: can access before creation. can be re-assigned and redeclared.
 
+// mention dynamic typing: reassign a variable to any value of another datatype
 
 

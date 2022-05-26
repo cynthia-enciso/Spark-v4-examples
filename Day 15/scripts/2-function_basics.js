@@ -1,15 +1,10 @@
 
 /* ------------------- Using Functions ---------------------------*/
-/* 
-    Using a quick console.log function at the start of a javascript file
-    is a good way to perform a sanity check (just to make sure there is
-        not a problem with the link to the javascript file)
-*/ 
 
-// calling a built-in function
+// 1. calling a built-in function
 console.log("hello world!");
 
-// declaring a function: you can call it before or after its declaration
+// 2. declaring a function: syntax and hoisting (hoisting is optional)
 myFunc();
 
 function myFunc() {
@@ -17,39 +12,19 @@ function myFunc() {
 }
 
 myFunc();
-/*
-    The parentheses in a function's declaration are used to declare parameters 
-    The parentheses in a function call are used to provide arguments
 
-    Parameters : Placeholders for values you want to use in a function
-    Arguments : the values you pass into a function when invoked
-*/
-
-// creating a function that takes in input
+// 3. creating a function that takes in input
 function takeInput(input) {
     // console log a string with the input included
     console.log("My parameter's value " + input);
     // create a local variable
-    let information = "locally scoped variable inside of function.";
-    // access local variable
-    console.log(information);
 }
 
 // call takeInput
 takeInput("Bob");
 takeInput(5);
 
-// try to access local variable: issue with scope. We will talk about scope in another lecture.
-// console.log(input);
-// console.log(information);
-
-/*
-    A function can return a value. This means that the function
-    can be used as an expression that can be assigned or used in an
-    operation
-*/
-
-// create function that returns value
+// 4. create function that returns value
 function returnTwenty() {
     return 20;
 }
