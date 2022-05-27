@@ -1,12 +1,12 @@
-package d_project.zoo;
+package b_project.zoo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import d_project.animals.Animal;
-import d_project.animals.Bird;
-import d_project.animals.Mammal;
-import d_project.animals.Reptile;
+import b_project.animals.Animal;
+import b_project.animals.Bird;
+import b_project.animals.Mammal;
+import b_project.animals.Reptile;
 
 /** 1. Change array to list */
 public class Zoo {

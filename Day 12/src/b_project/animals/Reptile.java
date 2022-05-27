@@ -1,4 +1,4 @@
-package d_project.animals;
+package b_project.animals;
 
 
 public class Reptile extends Animal {

@@ -1,9 +1,9 @@
-package d_project;
+package b_project;
 
 import java.util.Scanner;
 
-import d_project.zoo.Exhibit;
-import d_project.zoo.Zoo;
+import b_project.zoo.Exhibit;
+import b_project.zoo.Zoo;
 
 public class Main {
 	

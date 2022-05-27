@@ -1,4 +1,4 @@
-package d_project.animals;
+package b_project.animals;
 
 /** 1. make base class abstract */
 public abstract class Animal {

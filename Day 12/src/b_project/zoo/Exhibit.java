@@ -1,8 +1,8 @@
-package d_project.zoo;
+package b_project.zoo;
 
 import java.util.List;
 
-import d_project.animals.Animal;
+import b_project.animals.Animal;
 
 /** 1. Change array to List */
 public class Exhibit {
