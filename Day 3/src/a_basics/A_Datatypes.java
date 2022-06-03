@@ -6,7 +6,7 @@ public class A_Datatypes {
 		
 		/** 2. explain variable naming rules and conventions */
 			// can contain letters, numbers, $, and underscores and SHOULD start with letter
-		
+			
 			// CANNOT start with number or contain other special characters
 		
 			// explain naming conventions
@@ -57,8 +57,22 @@ public class A_Datatypes {
 					float myFloat =  5.55555555555555555F;
 					
 					// double - 8 bytes - 15 to 16 decimal places
-					double myDouble = 5.55555555555555555D;
-
-		
+					double myDouble = 5.55555555555555555D;		
 	}
+	
+	/** 5. talk about defaul values for variables outside of the main method in a class
+	 *  - we do not need to specify that they are instance variables yet.
+	 *  - optionally make them static so you can print them out via the main method
+	 * */
+	
+	boolean bool = false;
+	byte b = 0;
+	short s = 0;
+	int i = 0;
+	long l = 0L;
+	char c = '\u0000'; // unicode character for 'null'. The number representation is 0. Doesn't show up in console if printed out
+	float f = 0.0F;
+	double d = 0.0;
+	
+	
 }
