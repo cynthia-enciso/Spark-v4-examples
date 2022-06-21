@@ -1,8 +1,8 @@
-package d_project.zoo;
+package e_project.zoo;
 
 import java.util.Arrays;
 
-import d_project.animals.Animal;
+import e_project.animals.Animal;
 
 
 public class Exhibit {

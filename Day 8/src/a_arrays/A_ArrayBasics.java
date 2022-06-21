@@ -36,6 +36,7 @@ public class A_ArrayBasics {
 		 * Indexes track the numerical position of data within array
 		 * structures. Indexing start with 0.
 		 */
+		System.out.println(nums_1[0]); // 0
 		System.out.println(nums_3[0]); // 1
 		nums_3[0] = 15; // 1 -> 15
 		System.out.println(nums_3[0]); // 15

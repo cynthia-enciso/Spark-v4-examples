@@ -1,11 +1,11 @@
-package d_project.zoo;
+package e_project.zoo;
 
 import java.util.ArrayList;
 
-import d_project.animals.Animal;
-import d_project.animals.Bird;
-import d_project.animals.Mammal;
-import d_project.animals.Reptile;
+import e_project.animals.Animal;
+import e_project.animals.Bird;
+import e_project.animals.Mammal;
+import e_project.animals.Reptile;
 
 public class Zoo {
 	

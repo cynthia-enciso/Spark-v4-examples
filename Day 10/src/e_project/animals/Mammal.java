@@ -1,4 +1,4 @@
-package d_project.animals;
+package e_project.animals;
 
 
 public class Mammal extends Animal {
