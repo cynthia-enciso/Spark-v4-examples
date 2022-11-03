@@ -4,8 +4,8 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import zoo.animals.Animal;
-import zoo.exhibits.Exhibit;
+import zoo.animals.*;
+import zoo.exhibits.*;
 
 public class App {
 	private static Scanner scan = new Scanner(System.in);
@@ -37,6 +37,10 @@ public class App {
 
 			} catch (InputMismatchException e) {
 				System.out.println("Numerical Input Only!");
+				scan.nextLine();
+				continue;
+			} catch (IndexOutOfBoundsException e) {
+				System.out.println("Please enter a valid menu option");
 				scan.nextLine();
 				continue;
 			}

@@ -8,7 +8,6 @@ package b_staticvsinstance;
  * needing an object created by calling the class directly.
  */
 public class A_Account {
-	/** 1. Create static and instance variables. Explain difference between static and instance */
 	// static variable
 	static int count;
 	
@@ -17,13 +16,11 @@ public class A_Account {
 	long accountId;
 	double accountValue;
 	
-	/** 2. Create Account constructor and explain */
 	// this constructor now increases 'count' each time a new Account is created
 	public A_Account() {
 		count++;
 	}
 	
-	/** 3. Create and explain static vs instance methods */
 	// static method
 	public static void staticAccountMethod() {
 		System.out.println("This method is static to the Account class.");

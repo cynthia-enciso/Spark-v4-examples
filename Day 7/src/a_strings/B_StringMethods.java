@@ -2,8 +2,9 @@ package a_strings;
 
 public class B_StringMethods {
 	public static void main(String[] args) {
-		/** 1. write and explain each method of Strings below */
 		String word = "Revature";
+		
+		System.out.println( "Java".charAt(0) );
 		
 		// charAt() - returns the character at the specified index 
 		System.out.println("charAt(3): " + word.charAt(3)); // 4th letter. (Indexing starts at 0)
